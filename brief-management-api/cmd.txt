@@ -1,0 +1,7 @@
+add migrate --> yarn typeorm:migrate ${name}
+move migrate to db --> yarn typeorm:run
+generate module --> nest generate module ${name}
+generate controller --> next g controller ${name}
+generate serve -->  next g service ${name}
+
+// To avoid duplication DTO/Entity ? with automapper packaging and a middleware function
